@@ -34,6 +34,6 @@ var maxDepth = function(root) {
 };
 
 /*
-This problem stumped me at first. I was unsure how to keep separate trackers/counters with multiple callstacks in a recursive loop. The solution utilizes a comparison to the level variable outside of the recursive loop that is compared with the individual recursive loop in each stack.
+This problem stumped me at first. I was unsure how to keep separate trackers/counters with multiple callstacks in a recursive loop. The solution utilizes a comparison to the level variable outside of the recursive loop that is compared with the depth argument being passed within each recursion scenario.
 
 */
